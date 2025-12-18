@@ -1,0 +1,17 @@
+body {
+    color: #000;
+    background-image: linear-gradient(to right, #ffffff , #555);
+}
+.titulo-principal {
+    display: block;
+    padding: 1em;
+    font-size: 2.2em;
+    background-color: #22222200;
+    /* border: 1.5px solid #000; */
+    max-width: 500px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

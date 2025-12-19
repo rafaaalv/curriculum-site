@@ -22,7 +22,7 @@ return new class extends Migration
             $table->text('descricao')->nullable();
             $table->boolean('ead')->default(false);
             $table->boolean('extensionista')->default(false);
-            $table->boolean('extracurricular')->default(false);
+            $table->boolean('extracurricular')->default(true);
             $table->timestamps();
         });
         Schema::create('disciplina_prerequisito', function (Blueprint $table) {

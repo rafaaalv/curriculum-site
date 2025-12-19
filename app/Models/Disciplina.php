@@ -12,6 +12,7 @@ class Disciplina extends Model
         'codigo',
         'nome',
         'etapa',
+        'carater',
         'responsavel',
         'creditos',
         'descricao',
@@ -48,8 +49,8 @@ class Disciplina extends Model
         );
     }
 
-    public function competencias(): BelongsToMany
-    {
-        return $this->belongsToMany(Competencia::class, 'competencia_disciplina');
-    }
+    // public function competencias(): BelongsToMany
+    // {
+    //     return $this->belongsToMany(Competencia::class, 'competencia_disciplina');
+    // }
 }

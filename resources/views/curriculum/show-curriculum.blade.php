@@ -5,7 +5,9 @@ Novo Currículo Ciência da Computação UFRGS
 @endsection
 
 @section('content')
-<label>
-    Mostrar curriculo
-</label>   
+<ul>
+    <?php foreach($disciplinas as $disciplina):?>
+        <li>{{ $disciplina->nome }}</li>
+    <?php endforeach; ?>
+</uk>   
 @endsection

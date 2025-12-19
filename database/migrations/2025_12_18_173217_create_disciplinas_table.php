@@ -31,10 +31,10 @@ return new class extends Migration
             $table->primary(['disciplina_id', 'prerequisito_id']); 
         });
 
-        Schema::create('competencia_disciplina', function (Blueprint $table) {
-            $table->foreignId('disciplina_id')->constrained('disciplinas')->onDelete('cascade');
-            $table->foreignId('competencia_id')->constrained('competencias')->onDelete('cascade'); 
-        });
+        // Schema::create('competencia_disciplina', function (Blueprint $table) {
+        //     $table->foreignId('disciplina_id')->constrained('disciplinas')->onDelete('cascade');
+        //     $table->foreignId('competencia_id')->constrained('competencias')->onDelete('cascade'); 
+        // });
     }
 
     /**
@@ -44,6 +44,6 @@ return new class extends Migration
     {
         Schema::dropIfExists('disciplinas');
         Schema::dropIfExists('disciplina_prerequisito');
-        Schema::dropIfExists('competencia_disciplina');
+        //Schema::dropIfExists('competencia_disciplina');
     }
 };

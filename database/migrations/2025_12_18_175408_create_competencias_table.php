@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('competencias', function (Blueprint $table) {
             $table->id();
             $table->string('nome');
-            $table->string('nome');
+            $table->string('habilidade');
             $table->timestamps();
         });
     }

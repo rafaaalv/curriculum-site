@@ -12,6 +12,7 @@ class Disciplina extends Model
         'codigo',
         'nome',
         'etapa',
+        'carater',
         'responsavel',
         'creditos',
         'descricao',
@@ -43,13 +44,13 @@ class Disciplina extends Model
         return $this->belongsToMany(
             Disciplina::class,
             'disciplina_prerequisito',
-            'prerequisito_id', // Invertemos a ordem aqui
+            'prerequisito_id',
             'disciplina_id'
         );
     }
 
-    public function competencias(): BelongsToMany
-    {
-        return $this->belongsToMany(Competencia::class, 'competencia_disciplina');
-    }
+    // public function competencias(): BelongsToMany
+    // {
+    //     return $this->belongsToMany(Competencia::class, 'competencia_disciplina');
+    // }
 }

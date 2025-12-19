@@ -3,6 +3,6 @@ namespace App\Enums;
 
 enum CaraterDisciplina: string
 {
-    case OBRIGATORIO = 'Obrigatória';
-    case ELETIVO = 'Eletiva';
+    case OBRIGATORIO = 'obrigatorio';
+    case ELETIVO = 'eletivo';
 }

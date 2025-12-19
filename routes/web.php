@@ -15,3 +15,5 @@ use App\Http\Controllers\CurriculumController;
 */
 
 Route::get('/', [CurriculumController::class, 'show']);
+Route::get('/get-data', [CurriculumController::class, 'data']);
+Route::get('/{id}', [CurriculumController::class, 'subject']);

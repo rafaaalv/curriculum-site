@@ -12,7 +12,6 @@ class CurriculumController extends Controller
     public function show()
     {
         $disciplinas = Disciplina::query()->orderBy('etapa')->get();
-        $grafo = [];
         return view('curriculum.show-curriculum', compact('disciplinas'));
     }
     public function data(): void

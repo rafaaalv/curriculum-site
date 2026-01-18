@@ -14,6 +14,7 @@ use App\Http\Controllers\CurriculumController;
 |
 */
 
-Route::get('/', [CurriculumController::class, 'show']);
-Route::get('/get-data', [CurriculumController::class, 'data']);
-Route::get('/{id}', [CurriculumController::class, 'subject']);
+Route::get('/', [CurriculumController::class, 'obrigatorias'])->name('curriculum.obrigatorias');
+Route::get('/eletivas', [CurriculumController::class, 'eletivas'])->name('curriculum.eletivas');
+Route::get('/get-data', [CurriculumController::class, 'data'])->name('curriculum.data');
+Route::get('/{disciplina:codigo}', [CurriculumController::class, 'show'])->name('curriculum.show');

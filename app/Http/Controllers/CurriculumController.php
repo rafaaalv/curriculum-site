@@ -9,14 +9,21 @@ use App\Enums\CaraterDisciplina;
 
 class CurriculumController extends Controller
 {
-    public function show()
+    public function obrigatorias()
     {
-        $disciplinas = Disciplina::query()->orderBy('etapa')->get();
-        return view('curriculum.show-curriculum', compact('disciplinas'));
+        $disciplinas = Disciplina::where('etapa', '>', 0)->orderBy('etapa', 'desc')->get();
+        $max = $disciplinas->first()->etapa;
+        $index = count($disciplinas) - 1;
+        return view('curriculum.obrigatorias', [ "disciplinas" => $disciplinas, "max" => $max, "index" => $index]);
+    }
+    public function eletivas()
+    {
+        $disciplinas = Disciplina::where('etapa', 0)->get();
+        return view('curriculum.eletivas', [ "disciplinas" => $disciplinas]);
     }
     public function data(): void
     {
-        $path = database_path('dataset.json');
+        $path = database_path('data/dataset.json');
         $dados = json_decode(File::get($path), true);
 
         $preRequisitos = [];
@@ -50,10 +57,9 @@ class CurriculumController extends Controller
             $disciplina->preRequisitos()->sync($idsRequisitos);
         }
     }
-    public function subject(Request $request)
+    public function show(Disciplina $disciplina)
     {
-        $disciplina = Disciplina::find($request->id);
-        return view('curriculum.subject', compact('disciplina'));
+        return view('curriculum.show', ["disciplina" => $disciplina]);
     }
 }
 ?>

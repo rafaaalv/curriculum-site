@@ -1,6 +1,4 @@
-<x-layout>
-
-    <h1>Novo Currículo Ciência da Computação UFRGS</h1>
+<x-cadeiras>
 
     @for($i=1; $i <= $max; $i++)
         <div class="etapa">
@@ -8,11 +6,11 @@
             <?php $disciplina = $disciplinas[$index];?>
             <?php while($disciplina->etapa === $i && $index >= 0): ?>
             
-                <a href="{{ route('curriculum.show', $disciplina->codigo) }}", class="show">
+                <a href="{{ route('curriculum.show', $disciplina->codigo) }}">
                 <div class="disciplina">
                     <h4 class="codigo">{{ $disciplina->codigo }}</h4>
                     <h3 class="nome">{{ $disciplina->nome }}</h3>
-                    <h4 class="creditos">{{ $disciplina->creditos }}</h4>
+                    <h4 class="creditos">{{ $disciplina->creditos }} créditos</h4>
                 </div>
                 </a>
 
@@ -23,4 +21,4 @@
         </div>
     @endfor
 
-</x-layout>
+</x-cadeiras>

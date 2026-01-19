@@ -34,5 +34,6 @@ class DisciplinasSeeder extends Seeder
                     'extracurricular' => $disciplina->extracurricular
                 ));
             }
+             //faz aqui a montagem do grafo para evitar de ler o JSON mais de uma vez
     }
 }

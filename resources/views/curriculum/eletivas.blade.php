@@ -1,14 +1,21 @@
-<x-layout>
-    <ul>
-    @foreach($disciplinas as $disciplina)
-        <a href="{{ route('curriculum.show', $disciplina->codigo) }}", class="show">
-            <div class="disciplina">
-                <h4 class="codigo">{{ $disciplina->codigo }}</h4>
-                <h3 class="nome">{{ $disciplina->nome }}</h3>
-                <h4 class="creditos">{{ $disciplina->creditos }}</h4>
-            </div>
-        </a>
-    @endforeach
-    </ul>
+<x-cadeiras>
+    <?php $i = 0?>
+    @while($i < $max)
+        <div class="colEletiva">
+        @for($j=0; $j < 8; $j++)
 
-</x-layout>
+            <a href="{{ route('curriculum.show', $disciplinas[$i]->codigo) }}">
+                <div class="disciplina">
+                    <h4 class="codigo">{{ $disciplinas[$i]->codigo }}</h4>
+                    <h3 class="nome">{{ $disciplinas[$i]->nome }}</h3>
+                    <h4 class="creditos">{{ $disciplinas[$i]->creditos }} créditos</h4>
+                </div>
+            </a>
+            <?php $i++; 
+                if($i == $max){break;}?>
+
+        @endfor
+        </div>
+    @endwhile
+
+</x-cadeiras>

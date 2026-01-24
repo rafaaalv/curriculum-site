@@ -195,6 +195,7 @@ a{
 #voltar{
     margin: 2%;
     position: fixed;
+    background-color: #f0f0f0;
     border: 10px solid #828282;
     border-radius: 50%;
     width: 70px;
@@ -215,3 +216,11 @@ a{
     color: hsl(0, 1%, 60%);
 }
 /*============================*/
+
+.disciplinaAtiva{
+    margin-top: 20px;
+    text-align: center;
+    border: 12px solid #828282;
+    width: 300px;
+    border-radius: 5rem;
+}

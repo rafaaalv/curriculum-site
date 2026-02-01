@@ -224,3 +224,38 @@ a{
     width: 300px;
     border-radius: 5rem;
 }
+
+
+
+
+/*css da caixinha para explicar o que cada crédito é:*/
+.tooltip {
+    position: relative;
+    cursor: help;
+    color: #000000; 
+    font-weight: 500;
+}
+
+.tooltip-box {
+    position: absolute;
+    bottom: 130%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #111;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 260px;
+    text-align: center;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease;
+    z-index: 50;
+}
+
+.tooltip:hover .tooltip-box {
+    opacity: 1;
+    visibility: visible;
+}

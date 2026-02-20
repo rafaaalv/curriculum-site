@@ -761,7 +761,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Definições, caracteristicas e requisitos de Aplicações Web; Principais Padrões, Conceitos e Protocolos da Web; Visão Geral de Modelagem e Desenvolvimento de Aplicações Web; Arquiteturas e padrões arquiteturais; Linguagens para a Web; Frameworks para o desenvolvimento de aplicações Web; APIs, Web Services e SaaS; Considerações de Segurança e Privacidade.",
-    "prerequisistos": ["INF01145", "ED", "INF01127"],
+    "prerequisistos": ["INF01145", "INF01203", "INF01127"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true

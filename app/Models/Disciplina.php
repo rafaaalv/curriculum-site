@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use App\Enums\CaraterDisciplina;
 
 class Disciplina extends Model
@@ -32,8 +33,8 @@ class Disciplina extends Model
     {
         return $this->belongsToMany(
             Disciplina::class,
-            'disciplina_id',
             'disciplina_prerequisito',
+            'disciplina_id',
             'prerequisito_id'
         );
     
@@ -48,9 +49,4 @@ class Disciplina extends Model
             'disciplina_id'
         );
     }
-
-    // public function competencias(): BelongsToMany
-    // {
-    //     return $this->belongsToMany(Competencia::class, 'competencia_disciplina');
-    // }
 }

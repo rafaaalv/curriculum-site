@@ -1,11 +1,49 @@
+/* variáveis */
+:root {
+    --carbon-black: #1b1b1e;
+    --dust-grey: #d8d4d8;
+    --dark-grey: #868686;
+    --flag-red: #c80421;
+    --metallic-red: #b4041e;
+    --dark-wine: #780214;
+    --ice-white: #f5f4f5;
+    --pale-grey: #f1f1f1;
+
+}
+
+
 /* o body e a 'a' acho melhor deixar fixos*/
+/* *{
+        border-color: red;
+    border-style: solid;
+    border-width: 1px;
+} */
 body{
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: var(--ice-white);
+    font-family: 'Roboto';
+    color: var(--carbon-black);
+
 }
 a{
     text-decoration: none;
     pointer-events: none;
+}
+.title-container {
+    display: flex;
+    justify-content: center;
+    /* padding-top: 3rem; */
+    padding: 1.5rem;
+    background-color: var(--dust-grey);
+}
+.body-container {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.course-data {
+    margin-right: 2rem;
 }
 
 /*mapa*/
@@ -36,30 +74,34 @@ a{
 .disciplina{
     margin-top: 20px;
     text-align: center;
-    border: 12px solid #0574c4;
+    border: 6px solid;
+    border-color: var(--dark-wine);
     width: 300px;
-    border-radius: 5rem;
+    border-radius: 40px;
     cursor: pointer;
     pointer-events: auto;
+    background-color: var(--dust-grey);
+    transition: background-color 0.2s ease;
+    transition: transform 0.2s ease;
 }
 .disciplina:hover{
-    scale: 1.2;
-    background-color: hsl(0, 0%, 100%);
+    transform: scale(1.05);
+    background-color: var(--pale-grey);
 }
 
 /* textos da visualização de disciplinas obrigatórias */
-.codigo{
-    color: #0574c4;
+.codigo {
+    color: var(--carbon-black);
 }
 .nome{
-    color: #0574c4;
+    color: var(--carbon-black);
 }
 .creditos{
-    color: #0574c4;
+    color: var(--carbon-black);
 }
 /*============================*/
 .numEtapa{
-    color: #0574c4;
+    color: var(--dark-wine);
 }
 
 /* div da etapa */
@@ -85,104 +127,126 @@ a{
     top: 5%;
 }
 #eletiva{
-    top: 15%;
+    top: 20%;
 }
 /* botão quando pode ser pressionado */
 .option{
+
     left: 2%;
     position: fixed;
-    border-radius: 5rem;
-    background-color: #828282;
-    color: #f0f0f0;
+    border-radius: 2px;
+    background-color: var(--dust-grey);
+    color: var(--carbon-black);
     border: 4px solid #f0f0f0;
-    outline: 8px solid #828282;
+    outline: 2px solid;
+    outline-color: var(--dark-wine);
     text-align: center;
     align-content: center;
     width: 120px;
-    height: 50px;
+    height: 40px;
     z-index: 10;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: calibri;
     pointer-events: auto;
+    transition: background-color 0.2s ease;
+    transition: transform 0.2s ease;
+    /* margin: em 0; */
 }
 .option:hover{
-    scale: 1.2;
+    transform: scale(1.05);
+    /* scale: 1.05; */
     background-color: hsl(0, 1%, 60%);
-    outline-color: hsl(0, 1%, 60%);
-    color: hsl(0, 0%, 100%);
-    border-color: hsl(0, 0%, 100%);
+    /* outline-color: hsl(0, 1%, 60%); */
+    /* color: hsl(0, 0%, 100%); */
+    /* border-color: hsl(0, 0%, 100%); */
 }
 
 /* botão quando não pode ser pressionado */
 .optionAtiva{
-    background-color: #f0f0f0;
-    color: #828282;
-    border: 8px solid #828282;
-    width: 124px;
-    height: 54px; 
-    font-weight: bold;
-    font-size: 1.2em;
-    font-family: calibri;
-    z-index: 10;
+
     left: 2%;
     position: fixed;
-    border-radius: 5rem;
+    border-radius: 2px;
+    background-color: var(--dark-grey);
+    color: var(--pale-grey);
+    border: 4px solid #f0f0f0;
+    outline: 2px solid;
+    outline-color: var(--dark-wine);
     text-align: center;
     align-content: center;
-    pointer-events: none;
+    width: 120px;
+    height: 40px;
+    z-index: 10;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: calibri;
+    pointer-events: auto;
+    transition: background-color 0.2s ease;
+    transition: transform 0.2s ease;
+    /* margin: -1em 0; */
+    
 }
 /*============================*/
 
 /* botão para visualizar o currículo */
 /*============================*/
 #visualizar{
-    border-radius: 5rem;
-    background-color: #0574c4;
-    color: #f0f0f0;
+    border-radius: 15px;
+    background-color: var(--flag-red);
+    color: var(--ice-white);
     pointer-events: auto;
+    padding: 0.5rem;
     width: 200px;
     height: 50px;
     text-align: center;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #visualizar:hover{
-    scale: 1.2;
-    background-color: #2e8ed3;
-    color: hsl(0, 0%, 100%);;
+    background-color: var(--metallic-red);
+    color: var(--ice-white);
 }
 /*============================*/
 
 /* informações laterais */
 #information{
-    background-color: #828282;
-    color: #f0f0f0;
+    font-family: sans-serif;
+    font-size: 0.7em;
+    background-color: var(--dust-grey);
+    color: var(--carbon-black);
     position: fixed;
     z-index: 10;
     right: 0;
     height: 100vh;
-    width: 400px;
+    width: 30vw;
+    padding: 5vh 5vh 0 10vh;
 }
 /* seta lateral que oculta as informações */
 /*============================*/
 #hideInfo
 {
-    background-color: rgba(130, 130, 130, 0.3);
+    /* border: 1px solid red; */
+    background-color: var(--dust-grey);
     position: fixed;
-    width: 70px;
-    height: 70px;
-    font-size: 40px;
-    color: #f0f0f0;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    color: var(--carbon-black);
     cursor: pointer;
     z-index: 10;
     text-align: center;
-    top: 10%;
     line-height: 0;
+    transition: transform 0.2 ease;
+    /* margin: 0; */
 }
 #hideInfo:hover{
-    color: hsl(0, 0%, 100%);
+    color: var(--dark-grey);
 }
 .infoAtiva{
-    right: 400px;
+    right: 36%;
 }
 .infoInativa{
     right: 0;
@@ -195,22 +259,21 @@ a{
 #voltar{
     margin: 2%;
     position: fixed;
-    background-color: #f0f0f0;
-    border: 10px solid #828282;
+    border: 4px solid var(--carbon-black);
     border-radius: 50%;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     text-align: center;
-    color: #828282;
+    color: var(--carbon-black);
     font-weight: bold;
-    font-size: 45px;
+    font-size: 27px;
     z-index: 10;
     cursor: pointer;
     line-height: 0;
     pointer-events: auto;
 }
 #voltar:hover{
-    scale: 1.2;
+    /* scale: 1.2; */
     background-color: hsl(0, 0%, 100%);
     border-color: hsl(0, 1%, 60%);
     color: hsl(0, 1%, 60%);

@@ -1,7 +1,10 @@
 <x-layout>
 
-    <h1>Currículo {{ $nome }}</h1>
-    <div>
+    <div class="title-container">
+        <h1>Currículo {{ $nome }}</h1>
+    </div>
+    <div class="body-container">
+    <div class="course-data">
         <h3>
             <span class="tooltip">
             Créditos obrigatórios
@@ -59,5 +62,6 @@
             <h3>Visualizar Currículo</h3>
         </div>
     </a>
+    </div>
 
 </x-layout>

@@ -23,12 +23,8 @@ return new class extends Migration
             $table->boolean('ead')->default(false);
             $table->boolean('extensionista')->default(false);
             $table->boolean('extracurricular')->default(true);
+            $table->integer('id_grafo');
             $table->timestamps();
-        });
-        Schema::create('disciplina_prerequisito', function (Blueprint $table) {
-            $table->foreignId('disciplina_id')->constrained('disciplinas')->onDelete('cascade');
-            $table->foreignId('prerequisito_id')->constrained('disciplinas')->onDelete('cascade');
-            $table->primary(['disciplina_id', 'prerequisito_id']); 
         });
 
         // Schema::create('competencia_disciplina', function (Blueprint $table) {
@@ -43,7 +39,6 @@ return new class extends Migration
     public function down(): void
     {
         Schema::dropIfExists('disciplinas');
-        Schema::dropIfExists('disciplina_prerequisito');
         //Schema::dropIfExists('competencia_disciplina');
     }
 };

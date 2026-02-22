@@ -19,7 +19,8 @@ class Disciplina extends Model
         'descricao',
         'ead',
         'extensionista',
-        'extracurricular'
+        'extracurricular',
+        'id_grafo'
     ];
 
     protected $cast = [
@@ -29,24 +30,9 @@ class Disciplina extends Model
         'extracurricular' => 'boolean'
     ];
 
-    public function preRequisitos(): BelongsToMany
+    //função para pegar o grafo ao qual a disciplina pertence
+    public function grafoPreReq()
     {
-        return $this->belongsToMany(
-            Disciplina::class,
-            'disciplina_prerequisito',
-            'disciplina_id',
-            'prerequisito_id'
-        );
-    
-    }
-
-    public function liberadoras(): BelongsToMany
-    {
-        return $this->belongsToMany(
-            Disciplina::class,
-            'disciplina_prerequisito',
-            'prerequisito_id',
-            'disciplina_id'
-        );
+        return $this->belongsTo(GrafoPreRequisito::class, 'id_grafo');
     }
 }

@@ -26,7 +26,7 @@ export default class GrafoPreReq{
 
             //cria o arco entre a disciplina e cada disciplina liberada por ela
             this.grafo[disciplina].forEach(liberada => {
-                this.criaArco(disciplina, liberada);
+                    this.criaArco(disciplina, liberada);
             })
         });
     }
@@ -40,34 +40,34 @@ export default class GrafoPreReq{
 
             //cria os conteúdos da disciplina
             const novaDisciplina = document.createElement('div')
-            const cod = document.createElement('h4')
+            const codigo = document.createElement('h4')
             const nome = document.createElement('h3')
-            const credito = document.createElement('h4')
+            const creditos = document.createElement('h4')
 
             //insere o codigo da disciplina no texto de código
-            cod.className = 'codigo'
-            cod.innerText = this.disciplinas[disciplina].cod
+            codigo.className = 'codigo'
+            codigo.innerText = this.disciplinas[disciplina].codigo
 
             //insere o nome da disciplina no texto de nome
             nome.className = 'nome'
             nome.innerText = this.disciplinas[disciplina].nome
 
             //insere o crédito da disciplina no texto de crédito
-            credito.className = 'creditos'
-            credito.innerText = `${this.disciplinas[disciplina].credito} créditos`
+            creditos.className = 'creditos'
+            creditos.innerText = `${this.disciplinas[disciplina].creditos} créditos`
 
             //monta o div
             novaDisciplina.id = disciplina
             novaDisciplina.className = 'disciplina'
-            novaDisciplina.appendChild(cod)
+            novaDisciplina.appendChild(codigo)
             novaDisciplina.appendChild(nome)
-            novaDisciplina.appendChild(credito)
+            novaDisciplina.appendChild(creditos)
 
             //calcula a posição onde o elemento deve estar
             const posX = this.coordInicial.x + (this.pos[disciplina].col * this.tamCol);
             const posY = this.coordInicial.y + (this.pos[disciplina].lin * this.tamLin);
 
-            novaDisciplina.style.position = `fixed`;
+            novaDisciplina.style.position = `absolute`;
             novaDisciplina.style.left = `${posX}px`;
             novaDisciplina.style.top = `${posY}px`;        
 
@@ -133,6 +133,10 @@ export default class GrafoPreReq{
             }
             //se não possui pré-requisito, o nível é 0
 
+            //limite de linhas por coluna
+            const limiteLin = 5;
+            while(elementosPorColuna[nivel] > limiteLin){nivel++;}
+
             //determina a linha com base no número de elementos existentes na coluna
             if(elementosPorColuna[nivel] === undefined){
                 elementosPorColuna[nivel] = 0;
@@ -184,8 +188,8 @@ export default class GrafoPreReq{
 
         //retorna um objeto com o as coordenadas x e y 
         return {
-            x: (this.mapa.offsetLeft + this.mapa.offsetWidth)/2 - (xInicial * this.tamCol),
-            y: (this.mapa.offsetTop + this.mapa.offsetHeight)/1.7 - (yInicial * this.tamLin)
+            x: (this.mapa.offsetLeft + this.mapa.offsetWidth)/2 - (xInicial * this.tamCol)/2,
+            y: (this.mapa.offsetTop + this.mapa.offsetHeight)/2 - (yInicial * this.tamLin)/2
         }
     }
 
@@ -245,9 +249,9 @@ export default class GrafoPreReq{
     mudaInformacao(codigo){
         const conteudo = Array.from(this.information.children);
 
-        conteudo[0].textContent = this.disciplinas[codigo].cod;
+        conteudo[0].textContent = this.disciplinas[codigo].codigo;
         conteudo[1].textContent = this.disciplinas[codigo].nome;
-        conteudo[2].textContent = this.disciplinas[codigo].credito;
+        conteudo[2].textContent = this.disciplinas[codigo].creditos;
         conteudo[3].textContent = this.disciplinas[codigo].etapa === 0 ? 'eletiva' : 'obrigatória';
         conteudo[4].textContent = this.disciplinas[codigo].responsavel;
         conteudo[5].textContent = this.disciplinas[codigo].descricao;

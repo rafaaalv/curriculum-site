@@ -5,10 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo {{ $nome }}</title>
 
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/js/grafo.js'])
+    <script type="module">
+        //chamada da função que constroi o grafo
+        document.addEventListener('DOMContentLoaded', () => {
+        const grafo = @json($grafo);
+        const ordemTopo = @json($ordemTopo);
+        const disciplinas = @json($disciplinas);
+        const inicial = "{{ $disciplina->codigo }}"
+
+        criaGrafo(grafo, ordemTopo, disciplinas, inicial);
+    });
+
+        
+    </script>
 </head>
 <body>
     <div id="wrapper">
+
         <a href="{{ empty($rota) ? route('curriculum.obrigatorias') : route($rota) }}">  
             <div id="voltar">
                 <p>&#10006;</p>

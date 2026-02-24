@@ -251,9 +251,41 @@ export default class GrafoPreReq{
 
         conteudo[0].textContent = this.disciplinas[codigo].codigo;
         conteudo[1].textContent = this.disciplinas[codigo].nome;
-        conteudo[2].textContent = this.disciplinas[codigo].creditos;
-        conteudo[3].textContent = this.disciplinas[codigo].etapa === 0 ? 'eletiva' : 'obrigatória';
+        conteudo[2].textContent = `${this.disciplinas[codigo].creditos} créditos`;
+        conteudo[3].textContent = this.disciplinas[codigo].etapa === 0 ? 'eletiva' : `${this.disciplinas[codigo].etapa}ª etapa`;
         conteudo[4].textContent = this.disciplinas[codigo].responsavel;
-        conteudo[5].textContent = this.disciplinas[codigo].descricao;
+        conteudo[6].textContent = this.disciplinas[codigo].descricao;
+        
+        const lista = document.getElementById('preReq');
+        lista.innerHTML = "";
+        const prerequisitos = JSON.parse(this.disciplinas[codigo].prerequisitos);
+        const titulo = document.getElementById('titulo-preReq');
+
+        if(Object.keys(prerequisitos).length === 0){
+            titulo.style.display = 'none';
+        }
+        else
+        {
+            titulo.style.display = 'block';
+
+            prerequisitos.forEach(cod => {
+            const li = document.createElement('li');
+
+            if(cod.startsWith('#cred')){
+                const cred = cod.match(/\d+/);
+                li.textContent = `${cred} créditos`
+            }
+            else if(this.disciplinas[cod]){
+                const nomeDisciplina = this.disciplinas[cod].nome;
+                li.textContent = nomeDisciplina;
+            }
+            else{
+                li.textContent = cod;
+            }
+            
+            li.style.fontSize = '1.2em';
+            lista.appendChild(li);
+        })
+        }
     }
 }

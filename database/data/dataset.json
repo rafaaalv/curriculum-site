@@ -7,7 +7,7 @@
     "creditos": 6,
     "carater": "obrigatorio",
     "descricao": "Definição e solução de problemas, desenvolvimento de algoritmos e pensamento computacional. Fundamentos de programação imperativa: variáveis, tipos de dados, operadores, entrada e saída. Introdução a ambientes de programação e ao uso de ferramentas de desenvolvimento. Técnicas de depuração. Estruturas de controle de fluxo: sequência, seleção e iteração. Estruturas de dados básicas: arranjos, strings, matrizes e registros (tipos definidos pelo usuário). Geração e uso de números pseudo aleatórios. Princípios da programação estruturada: subprogramas, funções, ponteiros, passagem de parâmetros por valor e referência. Compilação e execução de programas na linha de comando. Boas práticas de programação. Modularização de programas em múltiplos arquivos. Manipulação básica de arquivos: arquivos binários e texto. Funções recursivas.",
-    "prerequisistos": [],
+    "prerequisitos": [],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -20,7 +20,7 @@
     "creditos": 6,
     "carater": "obrigatorio",
     "descricao": "Estudo da reta e de curvas planas. Cálculo diferencial de uma variável real. Cálculo integral das funções de uma variável real.",
-    "prerequisistos": [],
+    "prerequisitos": [],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -33,7 +33,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "História da Computação. Estrutura do curso de Ciência da Computação. Áreas da Computação. Grandes desafios da Computação. A carreira profissional de um Cientista da Computação. Impactos da Computação. Dispositivos computacionais, sistemas de numeração e aritmética binária. Princípios de Engenharia de Software. Ética, direitos autorais e licenças de uso. Privacidade e segurança. Técnicas de organização pessoal e do tempo. Técnicas de estudo e aprendizado. Ferramentas essenciais para um Cientista da Computação: versionamento de código, preparação de documentos estruturados com Markdown e LaTeX, panorama de editores de código e ambientes de programação, uso de terminal de comandos e automatização com 'scripts', manipulação de dados com expressões regulares, acesso remoto a computadores, uso crítico de ferramentas de inteligência artificial, e outras.",
-    "prerequisistos": [],
+    "prerequisitos": [],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -46,7 +46,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Histórico da Lógica. Lógica Proposicional (sintaxe e semântica). Lógica de Predicados (sintaxe e semântica). Sistemas Dedutivos (dedução natural, árvores de refutação, consistência e completude). Aplicações de Lógica em Computação.",
-    "prerequisistos": [],
+    "prerequisitos": [],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -59,7 +59,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Definição de problemas, algoritmos e pensamento computacional. Projeto e implementação de soluções algorítmicas para problemas usando o paradigma funcional. Principais técnicas de resolução de problemas: generalização, decomposição e transformação. Resolução de problemas usando recursão e meta-programação. Introdução às principais formas de organizar a informação: registros, listas, árvores, grafos. Fundamentos da sistematização da construção de soluções computacionais: documentação, boas práticas, projeto e análise (testes e correção).",
-    "prerequisistos": [],
+    "prerequisitos": [],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -72,7 +72,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Representação de dados: sistemas de numeração, aritmética binária e decimal, representação de caracteres. Noções básicas de arquitetura de computadores: organização básica da UCP; conjunto, formato, modos de endereçamento e armazenamento de instruções. Programação em linguagem de máquina e linguagem simbólica. Sub-rotinas: tipos, características e passagem de parâmetros. Interrupções e rotinas de tratamento.",
-    "prerequisistos": ["INF01202", "INF01087"],
+    "prerequisitos": ["INF01202", "INF01087"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -85,7 +85,7 @@
     "creditos": 6,
     "carater": "obrigatorio",
     "descricao": "Geometria analítica espacial. Derivadas parciais. Integrais múltiplas. Séries.",
-    "prerequisistos": ["MAT01353"],
+    "prerequisitos": ["MAT01353"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -98,7 +98,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Tipos abstratos de dados. Alocação dinâmica de memória. Listas, Pilhas e Filas. Algoritmos de ordenação. Árvores (Binárias, Balanceadas e de Busca), Strings. Hash. Estruturas de indexação e compressão.",
-    "prerequisistos": ["INF01202", "INF05008"],
+    "prerequisitos": ["INF01202", "INF05008"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -111,7 +111,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Conjuntos, Relações e Funções. Indução Matemática. Teoria dos Números. Análise Combinatória. Recorrências.",
-    "prerequisistos": [],
+    "prerequisitos": [],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -124,7 +124,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Conceito e teoremas fundamentais. Variáveis aleatórias. Distribuições de probabilidade. Estatística descritiva. Noções de amostragem. Inferência estatística: Teoria da estimação e Testes de hipóteses. Regressão linear simples. Correlação.",
-    "prerequisistos": ["MAT01353"],
+    "prerequisitos": ["MAT01353"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -137,7 +137,7 @@
     "creditos": 2,
     "carater": "obrigatorio",
     "descricao": "Introdução à verificação e validação de software. Requisitos de software. Fundamentos de teste de software. Fundamentos de verificação formal de software.",
-    "prerequisistos": ["INF01202", "INF05508"],
+    "prerequisitos": ["INF01202", "INF05508"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -150,7 +150,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Sistemas de gerência de banco de dados. Abordagem relacional: modelo de dados e restrições de integridade; formas normais; álgebra relacional; SQL (DDL, DML); visões, gatilhos, procedimentos armazenados. Plano de consultas. Transações. Controle de concorrência e bloqueio. Recuperação. Autorização.",
-    "prerequisistos": ["INF01203"],
+    "prerequisitos": ["INF01203"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -163,7 +163,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Projeto de Software: Fundamentos de design, arquitetura, padrões e introdução à linguagem de modelagem unificada (UML). Construção de Software: Boas práticas de codificação, frameworks, desenvolvimento guiado por testes (TDD), integração contínua e programação orientada a objetos (OOP). Qualidade e Testes: Métricas, code smells, testes unitários/integração/sistema/aceitação. Refatoração e Depuração: Técnicas de melhoria de código e resolução de defeitos. Manutenção e Ferramentas: Gestão de mudanças, versionamento e ambientes de desenvolvimento. Trabalho em Equipe: Colaboração e comunicação em projetos de grupo.",
-    "prerequisistos": ["INF01203"],
+    "prerequisitos": ["INF01203"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -176,7 +176,7 @@
     "creditos": 6,
     "carater": "obrigatorio",
     "descricao": "Representações de funções lógicas para uso em projeto de circuitos digitais. Portas lógicas CMOS. Síntese lógica de dois níveis, mapa de Karnaugh e algoritmo de Quine-McCluskey. Componentes de lógica programável. Blocos lógicos funcionais, multiplexadores, decodificadores. Circuitos aritméticos binários. Circuitos sequenciais e registradores. Máquinas de estados finitos. Linguagens de descrição de hardware: blocos lógicos funcionais, multiplexadores, decodificadores, circuitos aritméticos binários, circuitos sequenciais, máquinas de estados finitos e testbench. Projeto em nível de transferência de registradores.",
-    "prerequisistos": ["INF01075"],
+    "prerequisitos": ["INF01075"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -189,7 +189,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Análise e corretude de algoritmos. Notação assintótica. Teoria dos Grafos. Projeto e implementação de algoritmos: Grafos e Algoritmos Gulosos. Estruturas de dados para algoritmos gulosos.",
-    "prerequisistos": ["MAT01353", "INF01203", "MAT01375"],
+    "prerequisitos": ["MAT01353", "INF01203", "MAT01375"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -202,7 +202,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Conceitos básicos de linguagens (alfabeto, palavra, concatenação, linguagem formal). Linguagens regulares, autômatos finitos e expressões regulares. Linguagens livres de contexto, autômatos com pilha e gramáticas livres de contexto. Máquinas de Turing e suas variantes (não determinismo, múltiplas fitas). Linguagens Recursivas e Recursivamente Enumeráveis. Hierarquia de Chomsky.",
-    "prerequisistos": ["INF05508", "MAT01375"],
+    "prerequisitos": ["INF05508", "MAT01375"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -215,7 +215,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Histórico da engenharia de software. Modelagem e produção de software. Ciclo de vida do software. Especificação de requisitos. Projeto de software. Implementação e teste de software. Documentação de software. Evolução de software. Processo de software (modelos, abordagens). Reuso de software.",
-    "prerequisistos": ["INF01120"],
+    "prerequisitos": ["INF01120"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -228,7 +228,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Design de interação, conceitos básicos, metas de acessibilidade, usabilidade, Experiência do Usuário (UX), cognição, percepção, memória, aprendizado. Estilos de interação, metáfora, paradigmas. Design de interação: visão geral do processo e metodologias de pesquisa em UX (UX Research). Análise contextual: modelo do usuários (personas), cenários de uso (jornadas), modelo de tarefas. Projeto e prototipação de interfaces (protótipos de baixa fidelidade, alta fidelidade, protótipos funcionais, prototipação no code e em hardware). Avaliação de interfaces (técnicas sem usuário). Avaliação de interfaces (técnicas com usuários: formativas e somativas, implicações éticas e cuidados). Análise de resultados (qualitativos e quantitativos). UX Analytics.",
-    "prerequisistos": ["INF01120"],
+    "prerequisitos": ["INF01120"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -241,7 +241,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Blocos operativo e de controle; diferentes alternativas de organização (microarquitetura) de um processador: monociclo, multiciclo e pipeline; noções do impacto de cada alternativa sobre fatores como desempenho e custo; dependências; benchmarks e métricas; exploração de paralelismo em hardware (superescalar, VLIW, multicore, GPU); hierarquia e tecnologias de memória (cache, RAM, armazenamento secundário); suporte de memória virtual em hardware; barramentos.",
-    "prerequisistos": ["INF01086"],
+    "prerequisitos": ["INF01086"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -254,7 +254,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Análise e corretude de algoritmos. Projeto e implementação de algoritmos: Divisão e Conquista, Programação Dinâmica, e técnicas avançadas de projeto. Estruturas de dados avançadas.",
-    "prerequisistos": ["INF05027"],
+    "prerequisitos": ["INF05027"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -267,7 +267,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Modelos de computação Turing-completos e Tese de Church-Turing. Computabilidade. Reduções de Problemas. Classes de Complexidade Computacional. Problemas NP-Completos.",
-    "prerequisistos": ["INF05005"],
+    "prerequisitos": ["INF05005"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -280,7 +280,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Sistema de equações lineares. Matrizes. Fatoração LU. Vetores. Espaços vetoriais. Ortogonalidade. Valores próprios. Aplicações.",
-    "prerequisistos": ["MAT01353"],
+    "prerequisitos": ["MAT01353"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -293,7 +293,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Aplicações de Computação Gráfica e Visualização. Transformações geométricas: lineares, afins, e projetivas. Coordenadas homogêneas. Sistemas de coordenadas. Transformações hierárquicas. Técnicas de geração de imagens. Modelagem e processamento geométrico. Animação. Câmeras virtuais. Fontes de luz virtuais. Modelos de iluminação. Mapeamento de texturas. Uso de Unidades de Processamento Gráfico (GPUs). Conceitos de percepção e cognição relacionados à visualização. Tipos de dados e tarefas de usuário de visualizações. Codificação visual e espacial. Integração de visualização e interação. Múltiplas visões coordenadas. Técnicas de visualização: características, contextos e usos.",
-    "prerequisistos": ["MAT01355", "MAT01354", "INF01203"],
+    "prerequisitos": ["MAT01355", "MAT01354", "INF01203"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -306,7 +306,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Erros; ajustamento de equações; interpolação, derivação e integração; solução de equações lineares e não lineares; solução de sistemas de equações lineares e não lineares; noções de otimização; solução de equações diferenciais e equações diferenciais parciais; noções do método Monte Carlo em suas diferentes aplicações.",
-    "prerequisistos": ["INF01202", "MAT01355"],
+    "prerequisitos": ["INF01202", "MAT01355"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -319,7 +319,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Raciocínio em Inteligência Artificial. Técnicas de construção de agentes inteligentes. Busca não-informada e informada. Jogos. Agentes Lógicos. Raciocínio Probabilístico. Filosofia e Ética em Inteligência Artificial.",
-    "prerequisistos": ["INF05027", "MAT02219"],
+    "prerequisitos": ["INF05027", "MAT02219"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -332,7 +332,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Conceitos básicos de sistemas operacionais: organização de sistemas operacionais, chamadas de sistema, carregamento e execução de programas. Gerência do processador: processos, estados de processo, escalonamento, threads. Entrada e saída (E/S): dispositivos e controladores, software de E/S, interrupções, dependência e independência. Gerência de memória: partições fixas e variáveis, paginação, segmentação, memória virtual. Gerência de armazenamento permanente, sistema de arquivos. Suporte de segurança no sistema operacional.",
-    "prerequisistos": ["INF01075", "INF01203"],
+    "prerequisitos": ["INF01075", "INF01203"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -345,7 +345,7 @@
     "creditos": 8,
     "carater": "obrigatorio",
     "descricao": "Planejamento e execução de um projeto de pesquisa de pequeno porte na área de Computação. Método científico. Identificação de problemas relevantes e impactos das suas soluções. Inovação tecnológica a partir de projetos de base científica. Escrita científica. Divulgação científica. Pesquisa bibliográfica. Reprodutibilidade e Ciência Aberta.",
-    "prerequisistos": ["INF01087", "INF05027", "MAT02219", "INF01120"],
+    "prerequisitos": ["INF01087", "INF05027", "MAT02219", "INF01120"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -358,7 +358,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Fundamentos, paradigmas, algoritmos e metodologias de Aprendizado de Máquina. Métodos de aprendizado supervisionado e não-supervisionado. Métodos e métricas para avaliação de modelos. Técnicas de preparação de dados.",
-    "prerequisistos": ["MAT01355", "MAT01354", "INF01203", "MAT02219"],
+    "prerequisitos": ["MAT01355", "MAT01354", "INF01203", "MAT02219"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -371,7 +371,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Estrutura geral de compiladores e interpretadores. Análise léxica e sintática (scanner e parser). Avaliador abstrato (semântica operacional). Análise semântica (sistemas de tipos). Propriedades de linguagens de programação.",
-    "prerequisistos": ["INF01203", "INF05005"],
+    "prerequisitos": ["INF01203", "INF05005"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -384,7 +384,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Percepção visual e modalidade de imagens. Transformações de imagens: Equalização de Histograma e outras transformações não lineares, Transformada de Fourier. Filtragem de imagens: domínios espacial e frequência. Teorema da Amostragem e Teorema da Convolução. Restauração de imagens. Segmentação de imagens. Compressão de imagens e vídeos. Modelos de câmeras. Calibração. Estereoscopia e multi-view estéreo, Classificação de imagens. Detecção de objetos. Introdução a aprendizado profundo para Computação Visual. Questões éticas e sociais envolvendo imagens.",
-    "prerequisistos": ["MAT01355", "INF01203", "MAT01354"],
+    "prerequisitos": ["MAT01355", "INF01203", "MAT01354"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -397,7 +397,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Conceitos avançados de concorrência. Princípios de programação paralela e distribuída. Programação paralela em arquiteturas multicore. Programação paralela para arquiteturas heterogêneas e vetoriais. Programação paralela em ambientes de memória distribuída.",
-    "prerequisistos": ["INF01142"],
+    "prerequisitos": ["INF01142"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -410,7 +410,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Fundamentos e conceitos de redes de comunicação, com ênfase na Internet. Camada de Aplicação. Camada de Transporte. Camada de Rede. Camada de Enlace.",
-    "prerequisistos": ["INF01075"],
+    "prerequisitos": ["INF01075"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -423,7 +423,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Conceitos, propriedades e princípios em cibersegurança. Questões legais, éticas e humanas. Criptografia e esteganografia. Autenticação e autorização, controle de acesso. Governança de cibersegurança.",
-    "prerequisistos": ["INF01202", "MAT01375", "MAT02219"],
+    "prerequisitos": ["INF01202", "MAT01375", "MAT02219"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -436,7 +436,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Análise estática. Geração de código intermediário. Otimização de código. Geração de código. Sistemas de execução. Tópicos avançados.",
-    "prerequisistos": ["INF01075", "INF05029"],
+    "prerequisitos": ["INF01075", "INF05029"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -449,7 +449,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Modelagem matemática para programação linear e programação inteira. Métodos exatos de solução para programação linear e programação inteira. Meta-heurísticas para problemas de otimização combinatória.",
-    "prerequisistos": ["MAT01355", "INF05027", "INF05501"],
+    "prerequisitos": ["MAT01355", "INF05027", "INF05501"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -462,7 +462,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Introdução ao processamento de linguagem natural. Tipos de dados textuais e terminologia. Modelos probabilísticos de linguagem. Manipulação e comparação de textos. Representação de textos. Redes neurais para textos. Modelos de linguagem de larga escala. Aplicações: agentes conversacionais, recuperação de informação, tradução, sumarização, modelagem de tópicos, extração de informação. Ética em processamento de linguagem natural. Tópicos emergentes.",
-    "prerequisistos": ["INF01017"],
+    "prerequisitos": ["INF01017"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -475,7 +475,7 @@
     "creditos": 4,
     "carater": "obrigatorio",
     "descricao": "Princípios e práticas de sistemas distribuídos. Comunicação por memória compartilhada e por troca de mensagens. Sincronização de relógios. Algoritmos distribuídos, consenso distribuído. Computação em nuvem, névoa e borda. Fundamentos de tolerância a falhas: técnicas, medidas e arquiteturas. Segurança de funcionamento. Confiabilidade e disponibilidade. Sistemas críticos e segurança funcional.",
-    "prerequisistos": ["INF01142"],
+    "prerequisitos": ["INF01142"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -488,7 +488,7 @@
     "creditos": 8,
     "carater": "obrigatorio",
     "descricao": "Projeto, desenvolvimento e avaliação de um sistema computacional para um problema de pequeno porte, que envolva várias áreas da computação. Formatação e desenvolvimento de projetos empreendedores e negócios inovadores Análise crítica. Ética. Privacidade de dados. Proteção de propriedade intelectual. Tecnologia e negócios de impacto socioambiental. Preparação de apresentações técnicas. Preparação de documentos e relatórios técnicos.",
-    "prerequisistos": ["#cred(130)", "INF99003"],
+    "prerequisitos": ["#cred(130)", "INF99003"],
     "ead": false,
     "extensionista": false,
     "extracurricular": false
@@ -501,7 +501,7 @@
     "creditos": 16,
     "carater": "obrigatorio",
     "descricao": "(igual à atual)",
-    "prerequisistos": ["#cred(166)", "INF99004"],
+    "prerequisitos": ["#cred(166)", "INF99004"],
     "ead": false,
     "extensionista": false,
     "extracurricular": false
@@ -514,7 +514,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Introduzir conceitos e técnicas relacionadas ao projeto de agentes autônomos. Introduzir técnicas de resolução distribuída de problemas. Introduzir técnicas de projeto e implementação de um sistema multiagente como, por exemplo, plataformas para desenvolvimento e simulação. Estudo de extensões de técnicas clássicas de Inteligência Artificial (IA), para o caso multiagente. Estudo de teoria da decisão e teoria dos jogos em sistemas multiagente. Estudo de aplicações de sistemas multiagente.",
-    "prerequisistos": ["INF01048"],
+    "prerequisitos": ["INF01048"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -527,7 +527,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Neurônio artificial e sua organização em diversas arquiteturas de redes profundas, para tarefas envolvendo dados não-estruturados.",
-    "prerequisistos": ["INF01017"],
+    "prerequisitos": ["INF01017"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -540,7 +540,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Redes Neurais Convolucionais. Classificação de Imagens. Detecção de Objetos. Segmentação de Imagens. Modelos Generativos. Questões Éticas e Sociais envolvendo Imagens e Modelos Generativos. Tópicos Especiais em Aprendizado Profundo. Questões Éticas e Sociais Envolvendo Imagens e Vídeos.",
-    "prerequisistos": ["INF01202", "MAT01355", "MAT01354", "MAT02219"],
+    "prerequisitos": ["INF01202", "MAT01355", "MAT01354", "MAT02219"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -553,7 +553,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "1. Arquitetura de software e independência de dados. 2. Otimização de consultas ao Banco de Dados. 3. Suporte à Gerência de Transações. 4. Sintonia de Performance em Sistemas de Gerência de Banco de Dados (SGBD).",
-    "prerequisistos": ["INF01145"],
+    "prerequisitos": ["INF01145"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -566,7 +566,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Arquitetura do microprocessador 8088/8086. Ferramentas para desenvolvimento e depuração de programas assembly em ambiente MSDOS. Utilização de pseudo-instruções. Organização de software em ambientes MSDOS: BIOS, DOS, programas COM e EXE. Conjunto de instruções do 8088. Conceito e implementação de subrotinas. Utilização de instruções de entrada e saída para comunicação com pastilhas periféricas. Conceito e utilização de interrupções no 8088/8086. Organização de entrada e saída: entrada e saída mapeada em espaço de entrada e mapeada em memória. Conceitos de interface, periférico e controlador. Métodos de transferência de dados. Polling. Interrupção: conceito, ciclos de atendimento, mecanismos de identificação, níveis, prioridades. Acesso direto à memória: conceito, princípio de funcionamento, políticas de transferência, arquiteturas de ADM. Dispositivos de E/S: teclado, vídeo, impressora e disco.",
-    "prerequisistos": ["INF01075"],
+    "prerequisitos": ["INF01075"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -579,7 +579,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Estudo de arquiteturas complexas com diversos processadores. Processamento paralelo. Interconexões de processadores. Processadores 'pipeline'. Processadores vetoriais. Processadores 'array'. Processadores associativos. Processadores e Fluxo de Dados.",
-    "prerequisistos": ["INF01113"],
+    "prerequisitos": ["INF01113"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -592,7 +592,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Introdução à avaliação de desempenho de sistemas computacionais. Métodos de avaliação: vantagens, desvantagens, aplicações. Métodos analíticos: abordagens estocástica e operacional. Modelos baseados em redes de filas e em redes de Petri. Simulação discreta: conceitos, algoritmos de simulação. Abordagens de modelagem de sistemas discretos: orientação a eventos e a processos. Estudo de uma linguagem de simulação de propósitos gerais. Mensuração, benchmarking.",
-    "prerequisistos": ["MAT02219"],
+    "prerequisitos": ["MAT02219"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -605,7 +605,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Algoritmos, Modelos e Métodos da Ciência da Computação aplicados à biologia e ciências naturais, com ênfase em problemas de interesse biológico. Pré-requisitos: INF05512 Teoria dos Grafos e Análise Combinatória.",
-    "prerequisistos": ["INF01202"],
+    "prerequisitos": ["INF01202"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -618,7 +618,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Introdução a ferramentas de CAD. Metodologias de projeto de sistemas digitais. Representação de circuitos digitais. Validação, simulação e verificação. Algoritmos para Síntese Lógica, Síntese Física e Otimização. Tópicos avançados em Ferramentas de CAD.",
-    "prerequisistos": ["INF01203", "INF01175"],
+    "prerequisitos": ["INF01203", "INF01175"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -631,7 +631,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Categorias. Funtores. Transformações naturais. Limites e colimites. Adjunções. Tópicos especiais: categorias comma, topos, fibrações, monads, gramáticas de grafos.",
-    "prerequisistos": ["INF05501"],
+    "prerequisitos": ["INF05501"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -644,7 +644,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Introdução a Ciência de Dados. Preliminares Matemáticas. Processos da Ciência de Dados. Análise Estatística. Princípios de Visualização de Dados. Construção e Validação de Modelos. Algoritmos de Regressão. Algoritmos de Classificação. Algoritmos de Agrupamento. Processamento de Linguagem Natural. Análise de Séries Temporais. Detecção de Anomalias. Aprendizado de Máquina. Aplicações de Ciência de Dados.",
-    "prerequisistos": ["INF01203", "MAT02219"],
+    "prerequisitos": ["INF01203", "MAT02219"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -657,7 +657,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Métodos de classificação de dados e de pesquisa em tabelas. Conceituação de arquivo; organizações básicas e manipulação (métodos básicos). Índices: indexado-seqüencial; B-treee, B+, B*, e outros; hashing, ext. hash, e outros; arquivos invertidos;multilistas. Estruturas não-convencionais: noções: dados no espaço em disco; dados textuais em disco.",
-    "prerequisistos": ["INF01203"],
+    "prerequisitos": ["INF01203"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -670,7 +670,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Conceitos básicos sobre Vida Artificial. Introdução ao Paradigma de Algoritmos Genéticos. Aplicações de Algoritmos Genéticos. Programação evolutiva.",
-    "prerequisistos": ["INF01203"],
+    "prerequisitos": ["INF01203"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -683,7 +683,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "A disciplina abrange: as repercussões das novas tecnologias na sociedade, considerando-se os aspectos sociais, econômicos, políticos e educacionais; as principais formas de automação (industrial, comercial, bancária e de escritórios); aplicações da Informática nas diversas áreas do conhecimento; Ergonomia e Doenças Profissionais; Política e Indústria Nacional de Informática.",
-    "prerequisistos": [],
+    "prerequisitos": [],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -696,7 +696,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Fundamentos da Computação Gráfica Tridimensional: Representação e modelagem de objetos, Transformações geométricas, Processos de visualização. O Pipeliline Gráfico Programável. Síntese de imagens com realismo: Modelos de Iluminação e Modelos de Shading, Mapeamento de Texturas. Iluminação Global: Ray Tracing, Radiosidade, Transporte de Luz e Equação de Rendering, Monte Carlo Path Tracing. Tópicos Especiais em Computação Gráfica.",
-    "prerequisistos": ["INF01047"],
+    "prerequisitos": ["INF01047"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -709,7 +709,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Algoritmos paralelos (decomposição de domínio); Ferramentas para programação paralela multicore/many-core, cluster e vetorial; Modelos de programação paralela; Arquiteturas superescalares; Processadores vetoriais e multi/many-core.",
-    "prerequisistos": ["INF01008"],
+    "prerequisitos": ["INF01008"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -722,7 +722,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Teoria da informação. Codificação de fonte. Codificação de canal. Modulação. Canal físico. Multiplexação. Acesso múltiplo. Sistemas de comunicação ópticos. Sistemas de comunicação sem fios.",
-    "prerequisistos": ["INF01084"],
+    "prerequisitos": ["INF01084"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -735,7 +735,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Transistores e portas lógicas. Classificação de CI. Processos de fabricação. Regras de projeto. Concepção de blocos. Metodologias de concepção, tipos de ferramentas e descrições. Estruturas regulares. Blocos tipo ULA, registradores, PLA, ROM e outros. Estruturas para teste.",
-    "prerequisistos": ["INF01086"],
+    "prerequisitos": ["INF01086"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -748,7 +748,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Principais tipos de algoritmos computacionais. Projeto de algoritmos e experimentação prática. Implementação de algoritmos. Técnicas e estratégias para resolução de problemas.",
-    "prerequisistos": ["INF01120", "INF05028"],
+    "prerequisitos": ["INF01120", "INF05028"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -761,7 +761,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Definições, caracteristicas e requisitos de Aplicações Web; Principais Padrões, Conceitos e Protocolos da Web; Visão Geral de Modelagem e Desenvolvimento de Aplicações Web; Arquiteturas e padrões arquiteturais; Linguagens para a Web; Frameworks para o desenvolvimento de aplicações Web; APIs, Web Services e SaaS; Considerações de Segurança e Privacidade.",
-    "prerequisistos": ["INF01145", "INF01203", "INF01127"],
+    "prerequisitos": ["INF01145", "INF01203", "INF01127"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -774,7 +774,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Economia como ciência social. Noções elementares. Elementos básicos do processo produtivo. Sistema monetário-financeiro. Noções de análise microeconômica. Relações econômicas com o exterior. Morfologia da atividade econômica. Mensuração da atividade econômica. Repartição da renda social. Combinação econômica dos fatores da produção. Noções de análise macroeconômica. Desenvolvimento econômico. Economia brasileira.",
-    "prerequisistos": ["#cred(120)"],
+    "prerequisitos": ["#cred(120)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -787,7 +787,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Revisão matemática; métodos e linguagens; classificação dos métodos formais; especificação executáveis (prototipação); apresentação e aplicação de métodos e linguagens de especificação formal: VDM, Z, CCS, CSP, OBJ, LOTOS, UNIT e outros.",
-    "prerequisistos": ["INF05501"],
+    "prerequisitos": ["INF05501"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -800,7 +800,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Fotografia Convencional versus Fotografia Computacional. Espaços de Cores. Imagens com Alta Faixa Dinâmica. Segmentação e Composição de Imagens. Ferramentas matemáticas: Transformada de Fourier, Convolução e Deconvolução. Fotografia Codificada. Filtragem com Preservação de Arestas. Campos de Luz (light fields) e Câmeras Plenópticas.Tópicos Especiais em Fotografia Computacional. Questões Éticas e Sociais Envolvendo Imagens.",
-    "prerequisistos": ["INF01046"],
+    "prerequisitos": ["INF01046"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -813,7 +813,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "1. Histórico e fundamentos. 2. Avaliação e gerenciamento de riscos de projetos. 3. Organização, negociação e planejamento de projetos. 4. Ferramentas computacionais de planejamento e controle. 5. Planejamento e gerenciamento da evolução tecnológica. 6. Revisões de projeto. 7. Estudo de casos, análise de pesquisas, trabalhos práticos, métricas e atualização de software.",
-    "prerequisistos": ["INF01127"],
+    "prerequisitos": ["INF01127"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -826,7 +826,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "1. Visão geral dos componentes das redes, seu uso e formas de gerenciamento: 1.1 Componentes físicos: modens, linhas, CHUBS, pontes, roteadores, servidores, estações de trabalho, etc. 1.2 Componentes lógicos: recursos de informação e aplicações. 2. Arquiteturas de gerenciamento de redes. 2.1 Protocolos de gerenciamento: OSI e SNMP. 2.2 Objetos gerenciados. 3. Interoperabilidade entre aplicações em rede: 3.1 Serviços e protocolos: internet: SMTP, FTP, GOPHER, WWW etc. OSI: X400, X500, FTTAM 2.2 API(Application Program Interface).",
-    "prerequisistos": ["INF01084"],
+    "prerequisitos": ["INF01084"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -839,7 +839,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Estudo do conceito de computação e o que é computar. Análise de 'máquinas de computar', tanto mecânicas, eletro-mecânicas e eletrônicas. Estudo das diversas gerações de computadores, incluindo periféricos e exemplos de programação. Análise do processo de surgimento dos computadores pessoais, do desenvolvimento histórico das linguagens de programação, sistemas operacionais eaplicativos. Análise do processo de criação da Internet e seus serviços.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -852,7 +852,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Tempos verbais. Passado, presente, futuro, condicional, passiva. Pronomes. Oração condicional, adjetiva, interrogativa. Grau do adjetivo e formação de palavras.",
-    "prerequisistos": [],
+    "prerequisitos": [],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -865,7 +865,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Abordagem de forma introdutória e valorizando a interdisciplinaridade e transdisciplinaridade dos conceitos de empreendedorismo; Autoconhecimento; Paradigma do Empreendedorismo; Comportamento empreendedor; Espaço de oportunidades; Processo criativo; Processo da Inovação (Universidade - sociedade); Ecossistema da interdisciplinaridade - Modelo de Negócios; Planejamento Estratégico; Análise de Mercado; Plano de Marketing; Planejamento e viabilidade financeiro; Produção e apresentação de documentos visuais.",
-    "prerequisistos": ["INF99003"],
+    "prerequisitos": ["INF99003"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -878,7 +878,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "A disciplina aprofunda o estudo de inteligência artificial baseada em raciocínio, e introduz abordagens de inteligência artificial que combinam abordagens baseadas em raciocínio e baseadas em aprendizado de máquina.",
-    "prerequisistos": ["INF01048"],
+    "prerequisitos": ["INF01048"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -891,7 +891,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Pesquisa: conceito e ferramentas básicas empregadas. Identificação do problema; revisão da literatura relacionada, planejamento, preparação de proposta associada. Metodologias qualitativas de pesquisa. Metodologias quantitativas de pesquisa (métodos, descritivos, experimentais e estatísticos). Apresentação de resultados (relatórios e artigos): organização, estilo, formato, referências, indexação.",
-    "prerequisistos": ["#cred(80)"],
+    "prerequisitos": ["#cred(80)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -904,7 +904,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "1. Prolog como linguagem de IA. 2. Construção de programas.",
-    "prerequisistos": ["INF01048"],
+    "prerequisitos": ["INF01048"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -917,7 +917,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Prática em laboratório sobre fundamentos de sistemas de comunicação e redes de computadores. Análise aprofundada dos diversos protocolos de redes, como Ethernet, IP, TCP, UDP e protocolos de aplicação. Experimentos com redes sem fio, roteamento, segurança e modulação digital.",
-    "prerequisistos": ["INF01075"],
+    "prerequisitos": ["INF01075"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -930,7 +930,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Aspectos linguísticos da Língua Brasileira de Sinais (LIBRAS). História das comunidades surdas, da cultura e das identidades surdas. Ensino básico da LIBRAS. Políticas linguísticas e educacionais para surdos.",
-    "prerequisistos": [],
+    "prerequisitos": [],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -943,7 +943,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Fundamentos de Modelagem e Gerenciamento de Processos de Negócio. Tendências em Gerenciamento de Processos de Negócio.",
-    "prerequisistos": ["INF01127"],
+    "prerequisitos": ["INF01127"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -956,7 +956,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Manifesto e princípios ágeis. Práticas ágeis e enxutas. Métodos Ágeis e Ferramentas. Tendências.",
-    "prerequisistos": ["INF01127"],
+    "prerequisitos": ["INF01127"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -969,7 +969,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "1. Tipos, escopo, tempo de amarração de variáveis. 2. Subrotina, co-rotinas, passagem de parâmetros, recursividade. 3. Paralelismo, sincronização, etc. 4. Paradigmas de Programação: Imperativo, Funcional, Lógico, OO.",
-    "prerequisistos": ["INF01120"],
+    "prerequisitos": ["INF01120"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -982,7 +982,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Tipos de aplicações centradas em dados. Revisão restrições ACID. Teorema CAP. Abordagens NoSQL (Chave-Valor, Tabular, Documentos e Grafos). Modelo de dados, Operações e Consultas. Estudo de caso com sistemas de gerência de banco de dados (SGBDs) NoSQL.",
-    "prerequisistos": ["INF01145"],
+    "prerequisitos": ["INF01145"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -995,7 +995,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Introdução e escopo do processamento de imagens, aquisição e exibição de imagens monocromáticas e coloridas, formatos de arquivos de imagens, transformações de imagens (espaço, frequência, e outras transformações), realce e restauração de imagens degradadas, segmentação (métodos no domínio espaço, frequência, e espectral), atributos de imagens (textura, bordas, outros), compressão de imagens e vídeos (abordagens e padrões), detecção de regiões de interesse, representação e descrição de imagens 2D.",
-    "prerequisistos": ["INF01046", "MAT02219"],
+    "prerequisitos": ["INF01046", "MAT02219"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1008,7 +1008,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Modelagem Conceitual. Modelo ER (conceitos, mecanismos de abstraçao). Abordagens de Sistema de Banco de Dados (Relacional, NoSQL). Projeto de Bancos (modelagem conceitual, projeto lógico, implementação). Transformações entre modelos. Desenvolvimento de projeto como estudo de caso.",
-    "prerequisistos": ["INF01145"],
+    "prerequisitos": ["INF01145"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1021,7 +1021,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "1. Visão geral: termos e conceitos na área de hiperdocumentos. 2. Modelos de Objetos Complexos e modelos de referência de hiperdocumentos. 3. Introdução a Sistemas de Gerência de Banco de Hiperdocumentos (SGBH). 4. Intercâmbio de hiperdocumentos. 5. Padrões necessários para os hiperdocumentos. 6. Projeto e implementação hiperdocumentos.",
-    "prerequisistos": ["INF01145"],
+    "prerequisitos": ["INF01145"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1034,7 +1034,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Conceitos básicos e aplicações de realidade virtual (VR), aumentada (AR) e mista (XR). Metaverso. Dispositivos para XR. Interação 3D. Háptica. Construção de mundos virtuais usando recursos gráficos de alto nível (engines gráficas). Aplicações de XR.",
-    "prerequisistos": ["INF01047", "INF01043"],
+    "prerequisitos": ["INF01047", "INF01043"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1047,7 +1047,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Pré-processamento de Textos, Modelos de Recuperação de Informação, Metodologia de Avaliação, Técnicas de melhoria de qualidade e Tópicos Emergentes.",
-    "prerequisistos": ["INF01203"],
+    "prerequisitos": ["INF01203"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1060,7 +1060,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Robôs móveis inteligentes: evolução, tarefas fundamentais e impactos éticos. Atuação: planejamento de caminhos e navegação autônoma. Percepção: mapeamento de ambientes, estimativa de localização e noções de SLAM.",
-    "prerequisistos": ["INF01120", "INF05027", "MAT02219"],
+    "prerequisitos": ["INF01120", "INF05027", "MAT02219"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1073,7 +1073,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Conceitos, propriedades e princípios em segurança de redes de computadores e sistemas distribuídos. Arquiteturas para redes seguras. Mecanismos de defesa de redes e contramedidas. Segurança de redes sem fio. Censura e Privacidade em Redes de Computadores.",
-    "prerequisistos": ["INF01045"],
+    "prerequisitos": ["INF01045"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1086,7 +1086,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Protocolos avançados de redes de computadores. Novos paradigmas de comunicação. Redes definidas por software e programabilidade de redes. Serviços avançados na Internet.",
-    "prerequisistos": ["INF01084"],
+    "prerequisitos": ["INF01084"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1099,7 +1099,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "1. Conceitos em sistemas distribuídos. 2. Arquitetura cliente/servidor. 3. Cliente/servidor de arquivos. 4. Banco de Dados Distribuídos.",
-    "prerequisistos": ["INF01145"],
+    "prerequisitos": ["INF01145"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1112,7 +1112,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Computador visto como um sistema digital. Unidades operacional e de controle. Estruturas de controle: 'hardwired', microprogramada, com PLA, etc. Sistemas síncronos e assíncronos; comunicação entre sistemas. Estudo de casos (controle): 'carry look-ashead', interrupção em multiprocessamento entrada/saída, etc.",
-    "prerequisistos": ["INF01086"],
+    "prerequisitos": ["INF01086"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1125,7 +1125,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Aplicações de sistemas embarcados. Arquiteturas de hardware e software. Metodologias e etapas de projeto e desenvolvimento. Sistemas operacionais embarcados. Princípios de tempo real. Configuração e adaptação dos sistemas operacionais. Ambientes de desenvolvimento. Projeto baseado em plataformas de hardware e software. Estudos de caso.",
-    "prerequisistos": ["INF01086", "INF01142"],
+    "prerequisitos": ["INF01086", "INF01142"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1138,7 +1138,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Tópicos especiais de paralelismo e otimização. Impacto do paralelismo no desempenho e energia. Mapeamento de threads e dados. Gerenciamento de frequência de CPU, GPU e memória. Otimização de aplicações paralelas em GPU. Estratégias de comunicação e computação. Arquiteturas paralelas especiais.",
-    "prerequisistos": ["INF01008"],
+    "prerequisitos": ["INF01008"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1151,7 +1151,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "1. Introdução, conceitos e histórico de Engenharia de Conhecimento e de IA. 2. Abstração e modelos semânticos. 3. Aquisição e representação do conhecimento. 4. Sistemas Especialistas. 5. Inferência e Tratamento de Incerteza. 6. Projeto de Sistemas Especialistas.",
-    "prerequisistos": ["INF01048"],
+    "prerequisitos": ["INF01048"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1164,7 +1164,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "1. Introdução: sistemas distribuídos x centralizados, aspectos de hardware em multiprocessadores e multicomputadores. 2. Sistemas operacionais de rede: conceito e princípio. 3. Comunicação em sistemas distribuídos: modelo cliente-servidor, TCP/IP, RPC . 4. Sincronização em sistemas distribuídos. 5. Sistema de Arquivos Distribuídos: conceitos gerais, NFS. 6. Servidores de nomes. 7. Estudos de casos",
-    "prerequisistos": ["INF01085"],
+    "prerequisitos": ["INF01085"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1177,7 +1177,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Introdução à visualização de dados. Representação de dados. Pipeline de visualização. Visualização científica: escalar, vetorial e tensorial. Visualização de informações: dados multidimensionais, árvores e grafos. Introdução à Analítica Visual. Aplicações.",
-    "prerequisistos": ["INF01047"],
+    "prerequisitos": ["INF01047"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1190,7 +1190,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Revisão de Modelos de Câmeras e Percepção Visual; Espaços de Cores; Transformada Wavelet; Filtragem Avançada de Imagens (Filtros Cientes a Bordas, Filtragem usando Equações Diferenciais Parciais); Técnicas Avançadas de Segmentação de Imagens; Representação e Análise de Texturas; Detecção de Curvas e Linhas; Casamento Estéreo e Structure-from-Motion; Detecção e Casamento de Pontos-Chave; Detecção e Rastreamento de Objetos; Fluxo Ótico.",
-    "prerequisistos": ["INF01046"],
+    "prerequisitos": ["INF01046"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1203,7 +1203,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Tópicos avançados e atuais em Engenharia de Software. Engenharia de Software Experimental.",
-    "prerequisistos": ["INF01127"],
+    "prerequisitos": ["INF01127"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1216,7 +1216,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "1. Modelos intercalados. 1.1. Sistemas de transição, Árvores de Sincronização. 1.3. Linguagens (Traços de Hoare). 2. Modelos Não-Intercalados. 2.1. Traços de Mazurkieewicz. 2.2. Estruturas de Eventos. 2.3. Redes de Petri. 3. Relacionamento entre os modelos.",
-    "prerequisistos": ["INF05006"],
+    "prerequisitos": ["INF05006"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1229,7 +1229,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Fundamentos de Validação, Verificação e Teste. Técnicas de Teste de Software. Evolução de Software.",
-    "prerequisistos": ["INF01127"],
+    "prerequisitos": ["INF01127"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1242,7 +1242,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1255,7 +1255,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1268,7 +1268,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1281,7 +1281,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1294,7 +1294,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1307,7 +1307,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1320,7 +1320,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1333,7 +1333,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1346,7 +1346,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1359,7 +1359,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1372,7 +1372,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1385,7 +1385,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1398,7 +1398,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1411,7 +1411,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1424,7 +1424,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1437,7 +1437,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1450,7 +1450,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1463,7 +1463,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1476,7 +1476,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1489,7 +1489,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1502,7 +1502,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1515,7 +1515,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1528,7 +1528,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1541,7 +1541,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1554,7 +1554,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1567,7 +1567,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1580,7 +1580,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1593,7 +1593,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1606,7 +1606,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1619,7 +1619,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1632,7 +1632,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1645,7 +1645,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1658,7 +1658,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1671,7 +1671,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1684,7 +1684,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1697,7 +1697,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1710,7 +1710,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1723,7 +1723,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1736,7 +1736,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1749,7 +1749,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1762,7 +1762,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1775,7 +1775,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1788,7 +1788,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1801,7 +1801,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1814,7 +1814,7 @@
     "creditos": 4,
     "carater": "eletivo",
     "descricao": "Assuntos relacionados a inovações tecnológicas decorrentes de pesquisas recentes, aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade, aspectos abordados superficialmente em disciplinas regulares.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1827,7 +1827,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Invocações tecnológicas decorrentes de pesquisa recentes. Aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade. Aspectos específicos, de áreas do conhecimento já abordadas anteriormente, mas cobertos superficialmente, interessando a um grupo restrito de alunos e sendo objeto de pesquisa recente.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1840,7 +1840,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Invocações tecnológicas decorrentes de pesquisa recentes. Aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade. Aspectos específicos, de áreas do conhecimento já abordadas anteriormente, mas cobertos superficialmente, interessando a um grupo restrito de alunos e sendo objeto de pesquisa recente.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1853,7 +1853,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Invocações tecnológicas decorrentes de pesquisa recentes. Aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade. Aspectos específicos, de áreas do conhecimento já abordadas anteriormente, mas cobertos superficialmente, interessando a um grupo restrito de alunos e sendo objeto de pesquisa recente.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true
@@ -1866,7 +1866,7 @@
     "creditos": 2,
     "carater": "eletivo",
     "descricao": "Invocações tecnológicas decorrentes de pesquisa recentes. Aplicações específicas, interessando a um grupo restrito ou tendo caráter de temporariedade. Aspectos específicos, de áreas do conhecimento já abordadas anteriormente, mas cobertos superficialmente, interessando a um grupo restrito de alunos e sendo objeto de pesquisa recente.",
-    "prerequisistos": ["#cred(94)"],
+    "prerequisitos": ["#cred(94)"],
     "ead": false,
     "extensionista": false,
     "extracurricular": true

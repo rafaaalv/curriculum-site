@@ -28,17 +28,22 @@
                 <p>&#10006;</p>
             </div>
         </a>
-        <div id="hideInfo" class="infoAtiva">
-            <p>&#10095;</p>
-        </div>
-        <div id="information">
-            <!-- deixar vazio, pois são as informações da barra lateral e serão preenchidas na função em JS -->  
-            <h3></h3>
-            <h3></h3>
-            <h3></h3>
-            <h3></h3>
-            <h3></h3>
-            <h3></h3>
+        <div id="infoBox">
+            <div id="hideInfo" class="infoAtiva">
+                <p>&#10095;</p>
+            </div>
+            <div id="information">
+                <!-- deixar vazio, pois são as informações da barra lateral e serão preenchidas na função em JS -->  
+                <h2></h3>
+                <h2></h3>
+                <h3></h3>
+                <h3></h3>
+                <h3></h3>
+                <h2><br>Súmula:</h3>
+                <h3></h3>
+                <h2 id="titulo-preReq"><br>Pré-requisitos:</h2>
+                <ul id="preReq"></ul>
+            </div>
         </div>
 
         <div id="mapa">

@@ -20,14 +20,16 @@ class Disciplina extends Model
         'ead',
         'extensionista',
         'extracurricular',
-        'id_grafo'
+        'id_grafo',
+        'prerequisitos'
     ];
 
     protected $cast = [
         'carater' => CaraterDisciplina::class,
         'ead' => 'boolean',
         'extensionista' => 'boolean',
-        'extracurricular' => 'boolean'
+        'extracurricular' => 'boolean',
+        'prerequisitos' => 'array'
     ];
 
     //função para pegar o grafo ao qual a disciplina pertence

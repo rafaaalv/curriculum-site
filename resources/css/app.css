@@ -217,20 +217,23 @@ a{
     font-size: 0.7em;
     background-color: var(--dust-grey);
     color: var(--carbon-black);
+    padding: 5vh 5vh 0 10vh;
+    height: 100vh;
+}
+/* seta lateral que oculta as informações */
+/*============================*/
+#infoBox{
     position: fixed;
     z-index: 10;
     right: 0;
     height: 100vh;
     width: 30vw;
-    padding: 5vh 5vh 0 10vh;
 }
-/* seta lateral que oculta as informações */
-/*============================*/
 #hideInfo
 {
     /* border: 1px solid red; */
     background-color: var(--dust-grey);
-    position: fixed;
+    position: absolute;
     width: 50px;
     height: 50px;
     font-size: 25px;
@@ -246,7 +249,9 @@ a{
     color: var(--dark-grey);
 }
 .infoAtiva{
-    right: 36%;
+    position: absolute;
+    left: 0;
+    transform: translate(-100%);
 }
 .infoInativa{
     right: 0;
@@ -283,13 +288,12 @@ a{
 .disciplinaAtiva{
     margin-top: 20px;
     text-align: center;
-    border: 12px solid #828282;
+    border: 6px solid;
+    border-color: indianred;
+    background-color: var(--pale-grey);
     width: 300px;
-    border-radius: 5rem;
+    border-radius: 40px;
 }
-
-
-
 
 /*css da caixinha para explicar o que cada crédito é:*/
 .tooltip {

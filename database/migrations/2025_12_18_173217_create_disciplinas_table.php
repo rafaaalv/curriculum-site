@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('carater');
             $table->integer('creditos');
             $table->text('descricao')->nullable();
+            $table->json('prerequisitos')->nullable();
             $table->boolean('ead')->default(false);
             $table->boolean('extensionista')->default(false);
             $table->boolean('extracurricular')->default(true);

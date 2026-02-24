@@ -6,6 +6,7 @@ use App\Models\Disciplina;
 use App\Models\GrafoPreRequisito;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\File;
 use League\Flysystem\Visibility;
 use Illuminate\Support\Facades\DB;
@@ -35,7 +36,7 @@ class DisciplinasSeeder extends Seeder
 
         foreach ($data as $d) {
             $cod = $d['codigo'];
-            $prereqs = $d['prerequisistos'] ?? [];
+            $prereqs = $d['prerequisitos'] ?? [];
 
             foreach ($prereqs as $pre) {
                 if (str_starts_with($pre, '#')) continue;
@@ -151,7 +152,8 @@ class DisciplinasSeeder extends Seeder
                     'ead' => $disciplina['ead'],
                     'extensionista' => $disciplina['extensionista'],
                     'extracurricular' => $disciplina['extracurricular'],
-                    'id_grafo' => $novoGrafo->id
+                    'id_grafo' => $novoGrafo->id,
+                    'prerequisitos' => json_encode($disciplina['prerequisitos'])
                 ));
             }
         }
